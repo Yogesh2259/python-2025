@@ -1,0 +1,6 @@
+from os import remove
+minutes=int(input("enter time in minutes:"))
+hours=minutes//60
+remaing=minutes%60
+print(hours)
+print(remaining) 
