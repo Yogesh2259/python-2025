@@ -1,0 +1,5 @@
+def return_argument(arg):
+    return arg
+result = return_argument(10)
+print("Returned value:", result)
+
