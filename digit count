@@ -1,0 +1,4 @@
+print("yogi")
+num=int(input("enter a number:"))
+count=len(str(num))
+print(f"number of digits in {num} is{count}")
