@@ -1,0 +1,6 @@
+start=int(input("enter start range:"))
+end=int(input("enter end range:"))
+even_sum=0
+for num in range(start,end+1)
+if num%2==0
+even_num
