@@ -1,0 +1,3 @@
+print ("yogi")
+num=input("enter a number:")
+print ("reversed",num[::-1])
