@@ -1,0 +1,7 @@
+a=int(input("Enter a"))
+b=int(input("Enter b"))
+print("yogi032')
+print("Addition ",a+b)
+print("multiple", a*b)
+print("division", a/b)
+print("Subtraction ",a-b)pro")
