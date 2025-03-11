@@ -1,0 +1,4 @@
+user_input = input ("Enter a string :")
+print(" yogi 032")
+print("Reversed string:",
+user_input[::-1])
