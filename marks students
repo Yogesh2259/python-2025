@@ -1,0 +1,11 @@
+print("yogi")
+marks = int(input("enter students marks"))
+if marks>=90:
+  grade='a'
+elif marks>=75:
+  grade='b'
+elif marks>=50:
+  grade='c'
+else:
+  grade='f'
+print(f"grade:{grade}") 
