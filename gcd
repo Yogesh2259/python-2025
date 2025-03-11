@@ -1,0 +1,9 @@
+print("yogi")
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+def gcd(x,y):
+  while y:
+    x,y=y,x%y
+  return x
+lcm=(a*b)//gcd(a,b)
+print(f"the lcm of {a} and {b} is {lcm}")
