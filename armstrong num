@@ -1,0 +1,8 @@
+print("yogi")
+num=int(input("enter a number:"))
+num_str=str(num)
+sum_cubes=sum(int(digit)**len(num_str)for digit in num_str)
+if sum_cubes==num:
+  print(f"{num} is an armstrong number")
+else:
+  print(f"{num} is not an armstrong number"
