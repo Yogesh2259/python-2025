@@ -1,0 +1,4 @@
+print("yogi")
+num=int(input("enter a number:"))
+sum_digits=sum(int(digit) for digit in str(num))
+print(f"sum of digits in {num} is{sum_digits}")
