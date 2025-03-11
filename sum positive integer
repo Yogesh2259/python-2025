@@ -1,0 +1,4 @@
+print("yogi")
+N=int(input("enter a positive integer:"))
+sum_natural=N*(N+1)//2
+print(f"sum of first {N} natural numbers is{sum_natural}")
