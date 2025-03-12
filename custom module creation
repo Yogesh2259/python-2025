@@ -1,0 +1,12 @@
+def greet(name):
+  print("hello,"+name)
+def sanam():
+  print("sanam theri kassam")
+def tara():
+  print("tara theri kassam")
+
+
+                                           import yogi
+                                           yogi.greet("bdf")
+                                           yogi.sanam()
+                                           yogi.tara()
