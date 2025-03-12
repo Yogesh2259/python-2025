@@ -1,0 +1,3 @@
+a=5
+b=6
+print(f"""enter first num is {a},second num is{b}""")
