@@ -1,0 +1,8 @@
+import math
+num=7
+sqrt_value=math.sqrt(num)
+factorial_value=math.factorial(num)
+sine_value=math.sin(num)
+print(f"squar root of {num}: {sqrt_value}")
+print(f"factorial of {num}: {factorial_value}")
+print(f"sin of {num}: {sine_value}")
