@@ -1,0 +1,7 @@
+print("yogi")
+d = {'name': 'Alice', 'age': 25, 'city': 'New York'}
+see = 'age'
+if see in d:
+    print(f"'{see}' exists in the c.")
+else:
+    print(f"'{see}' does not exist in the c.")
