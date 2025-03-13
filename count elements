@@ -1,0 +1,7 @@
+print("yogi")
+def count_occur(lst, element):
+    return lst.count(element)
+a = [1, 2, 3, 4, 5, 3, 2, 3, 6, 7]
+count = 3
+count = count_occur(a, count)
+print(f"The element {count} appears {count} times in the list.")
