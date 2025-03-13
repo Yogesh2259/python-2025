@@ -1,0 +1,12 @@
+print("yogi")
+def mm(lst):
+    if lst:
+        largest = max(lst)
+        smallest = min(lst)
+        return largest, smallest
+    else:
+        return None, None 
+a = [3, 1, 4, 1, 6]
+largest, smallest = mm(a)
+print(f"Largest number: {largest}")
+print(f"Smallest number: {smallest}")
