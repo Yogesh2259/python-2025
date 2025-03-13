@@ -1,0 +1,7 @@
+print("yogi")
+a = (1, 2, 3, 4, 5)
+my_list = list(my_tuple)
+print("Tuple to List:", my_list)
+a = [6, 7, 8, 9, 10]
+a = tuple(a)
+print("List to Tuple:", a)
