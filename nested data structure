@@ -1,0 +1,10 @@
+print("yogi")
+student_marks = {
+    "hari": [85, 90, 88],
+    "Bob": [78, 82, 91],
+    "pyro": [92, 85, 87],
+    "david": [76, 80, 85]
+}
+print("Student Marks Dictionary:")
+for student, marks in student_marks.items():
+    print(f"{student}: {marks}")
