@@ -1,0 +1,3 @@
+print("yogi")
+s.pop(2)
+print(s[0])
