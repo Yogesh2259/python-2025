@@ -1,0 +1,7 @@
+print("yogi")
+a = {
+    'name': 'Alice',
+    'age': 25,
+    'city': 'New York'
+}
+print("Dictionary:", a)
