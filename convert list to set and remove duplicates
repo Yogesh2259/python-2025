@@ -1,0 +1,4 @@
+print("yogi")
+a = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7]
+a = set(a)
+print(a)
