@@ -1,0 +1,6 @@
+print("yogi")
+def sum(lst):
+    return sum(lst)
+a = [1, 2, 3, 4, 5]
+result = sum(a)
+print("Sum:", result)
