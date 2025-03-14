@@ -1,0 +1,25 @@
+class Calculator:
+    def add(self, a, b):
+        return a + b
+    def subtract(self, a, b):
+        return a - b
+    def multiply(self, a, b):
+        return a * b
+    def divide(self, a, b):
+        if b == 0:
+            return "Error! ."
+        else:
+            return a / b
+    def res(self, result):
+        print("Result:", result)
+calc = Calculator()
+res1 = calc.add(10, 5)
+calc.res(res1) 
+res2 = calc.subtract(10, 5)
+calc.res(res2)
+res3 = calc.multiply(10, 5)
+calc.res(res3) 
+res4 = calc.divide(10, 5)
+calc.res(res4) 
+res5 = calc.divide(10, 0)
+calc.res(res5)
