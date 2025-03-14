@@ -1,0 +1,11 @@
+class student:
+  def __init__(self,marks):
+    self.marks=marks
+  def result(self): 
+    if self.marks>=35: 
+      print(f"pass{self.marks}") 
+    if self.marks<=35: 
+      print(f"fail{self.marks}")
+      
+student_obj = student(37)
+student_obj.result() 
