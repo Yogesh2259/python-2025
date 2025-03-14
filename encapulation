@@ -1,0 +1,10 @@
+class Example: 
+      def __init__(self): 
+          self.pub = " public" 
+          self.__pri = " private" 
+ 
+      def m_pri(self): 
+          print(self.__pri) 
+j = Example() 
+print(j.pub) 
+j.m_pri()  
